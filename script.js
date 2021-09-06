@@ -22,6 +22,7 @@ function playGame(){
 
 // Initialize a new game by resetting all values and content on the page
 function initGame(){
+  document.getElementById("number-guess").value = "";
   correctNumber = getRandomNumber();
   guesses = []
   displayHistory()
